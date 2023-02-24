@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.generation.programacioobjetos.models.Animal;
 import com.generation.programacioobjetos.models.Conejo;
 import com.generation.programacioobjetos.models.Gato;
 import com.generation.programacioobjetos.models.Perro;
@@ -69,6 +70,11 @@ public class ProgramacioobjetosApplication {
 		//pero ambos pueden llamar al metodo de la clase padre :D
 		michiGordito.caminar();
 		badBunny.caminar();
+		/******************************** */
+		//definir solo un animal
+		Animal animalSimple = new Animal();
+		System.out.println(animalSimple);
+		
 
 
 	}
